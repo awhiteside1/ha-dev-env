@@ -2,4 +2,3 @@ homeassistant:
   name: Dev
   internal_url: "http://ha-dev.local:8123"
   time_zone: America/Chicago
-
