@@ -1,0 +1,23 @@
+repository: git@github.com:awhiteside1/ha-dev-env.git
+git_branch: main
+git_remote: origin
+auto_restart: true
+restart_ignore:
+  - ui-lovelace.yaml
+  - .gitignore
+git_command: pull
+git_prune: false
+deployment_key:
+  - "-----BEGIN OPENSSH PRIVATE KEY-----"
+  - b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  - QyNTUxOQAAACD2twJfeKu0HYqrarr2xxdET25ubQq8fz/sTqVBFhcdqwAAAKC05gHCtOYB
+  - wgAAAAtzc2gtZWQyNTUxOQAAACD2twJfeKu0HYqrarr2xxdET25ubQq8fz/sTqVBFhcdqw
+  - AAAECtybBtBP9/v5QUyDKHhfFxwGw2ilzWVoahUjHzoQj8hPa3Al94q7QdiqtquvbHF0RP
+  - bm5tCrx/P+xOpUEWFx2rAAAAFnlvdXJfZW1haWxAZXhhbXBsZS5jb20BAgMEBQYH
+  - "-----END OPENSSH PRIVATE KEY-----"
+deployment_user: ""
+deployment_password: ""
+deployment_key_protocol: ed25519
+repeat:
+  active: false
+  interval: 300
