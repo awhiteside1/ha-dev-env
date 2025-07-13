@@ -1,0 +1,79 @@
+input_number.garden_time:
+  icon: mdi:timer
+input_number.door_delay:
+  icon: mdi:clock-fast
+calendar.person3:
+  icon: mdi:calendar
+calendar.person1:
+  icon: mdi:calendar
+calendar.person2:
+  icon: mdi:calendar
+calendar.person2_work:
+  icon: mdi:calendar-multiple
+device_tracker.car_gps:
+  friendly_name: Car
+input_text.person_person3:
+  entity_picture: /local/people/person3Thumb.jpg
+input_text.person_person4:
+  entity_picture: /local/people/ElizabethThumb.png
+input_text.person_person1:
+  entity_picture: /local/people/person1Thumb.jpg
+input_text.person_person2:
+  entity_picture: /local/people/person2/person2.png
+input_text.car_location:
+  entity_picture: /local/images/skoda.png
+binary_sensor.first_floor_front:
+  device_class: connectivity
+binary_sensor.first_floor_rear:
+  device_class: connectivity
+device_tracker.person2_bt_front_laptop:
+  source_type: bluetooth
+device_tracker.person2_bt_front_mobile:
+  source_type: bluetooth
+device_tracker.person2_bt_front_tablet:
+  source_type: bluetooth
+device_tracker.person2_bt_front_work:
+  source_type: bluetooth
+device_tracker.person2_bt_laptop:
+  source_type: bluetooth
+device_tracker.person2_bt_mobile:
+  source_type: bluetooth
+device_tracker.person2_bt_tablet:
+  source_type: bluetooth
+device_tracker.person2_bt_work:
+  source_type: bluetooth
+device_tracker.person1_bt_front_mobile:
+  source_type: bluetooth
+device_tracker.person1_bt_front_tablet:
+  source_type: bluetooth
+device_tracker.person1_bt_mobile:
+  source_type: bluetooth
+device_tracker.person1_bt_tablet:
+  source_type: bluetooth
+device_tracker.car_front:
+  source_type: bluetooth
+device_tracker.car_rear:
+  source_type: bluetooth
+device_tracker.person4_bt_front_mobile:
+  source_type: bluetooth
+device_tracker.person4_bt_mobile:
+  source_type: bluetooth
+device_tracker.person3_bt_front_mobile:
+  source_type: bluetooth
+device_tracker.person3_bt_mobile:
+  source_type: bluetooth
+device_tracker.08_a6_bc_ea_df_3f:
+  friendly_name: person2_kindle_oasis
+device_tracker.f8_0f_f9_df_15_5e:
+  friendly_name: "person1's mobile"
+sensor.person2_miband7_heartrate:
+  unit_of_measurement: bpm
+sensor.person2_miband7_battery:
+  unit_of_measurement: '%'
+  friendly_name: "MiBand7 Battery"
+sensor.person2_miband7_spo2:
+  unit_of_measurement: '%'
+sensor.person2_miband7_stress:
+  unit_of_measurement: '%'
+sensor.washing_machine_vibration_strength:
+  unit_of_measurement: 'whale'

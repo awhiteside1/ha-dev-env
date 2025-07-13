@@ -1,0 +1,39 @@
+default: warning
+logs:
+  root: warning
+  pyhap: warning
+  py.warnings: warning
+  pywemo.ssdp: warning
+  simplipy.api: warning
+  netdisco.ssdp: warning
+  aiohttp.server: warning
+  aiohttp.websocket: error
+  pywemo.subscribe: error
+  homeassistant.core: critical
+  homeassistant.setup: warning
+  homeassistant.loader: warning # hide custom_component warnings
+  homeassistant.exceptions: warning
+  homeassistant.helpers.script: warning
+  homeassistant.helpers.entity: warning
+  homeassistant.helpers.template: critical
+  homeassistant.components.wemo: critical
+  homeassistant.components.light: error
+  homeassistant.components.sensor: critical
+  homeassistant.components.cloud.iot: warning
+  homeassistant.components.camera: warning
+  homeassistant.components.zwave: critical
+  homeassistant.components.image_processing: warning
+  homeassistant.components.homekit: error
+  custom_components.sensor.life360: warning
+  custom_components.sensor.paloalto: warning
+  homeassistant.components.recorder: warning
+  homeassistant.components.discovery: warning
+  homeassistant.components.automation: warning
+  custom_components.sensor.command_line: warning
+  homeassistant.components.climate.nest: warning
+  homeassistant.components.media_player: warning
+  custom_components.media_player.sharptv: warning
+  homeassistant.components.switch.tplink: warning
+  homeassistant.components.emulated_hue: warning
+  homeassistant.components.device_tracker: warning
+  homeassistant.components.camera.generic: warning

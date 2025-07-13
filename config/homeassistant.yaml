@@ -1,0 +1,23 @@
+name: Dev Home
+latitude: 39.0997
+longitude: -94.5786
+elevation: 277
+country: US
+language: en-US
+currency: USD
+time_zone: America/Chicago
+unit_system: imperial
+#customize: !include customize.yaml
+#allowlist_external_dirs:
+#  - /data/homeassistant
+#  - /data/apprise
+auth_providers: !include auth_providers.yaml
+external_url: http://ha-dev.local:8123
+internal_url: http://ha-dev.local:8123
+allowlist_external_urls:
+  - http://localhost:8123
+  - http://localhost:5000
+  - http://127.0.0.1:8123
+  - http://127.0.0.1:5000
+  - http://ha-dev.local:8123
+  - http://ha-dev.local:5000
